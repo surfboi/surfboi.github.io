@@ -1,0 +1,65 @@
+.jumbotron {
+  background-image: url(../img/plants.jpg);
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+
+#blue .jumbotron{
+  position: relative;
+  background-image: none;
+}
+
+#blue .jumbotron video{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 30%;
+  opacity: 0.5;
+}
+#blue .jumbotron .container {
+  position: relative;
+}
+
+#blue .carousel-caption{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#contact .jumbotron {
+  background-image: url(../img/blue/03.jpg);
+}
+
+
+#jade .jumbotron {
+  background-image: url(../img/jade.jpg);
+  background-position: 50% 50%;
+  background-attachment: fixed;
+}
+
+#jade .progress {
+  height: 100%;
+  background-color: #e9ecef99;
+}
+
+#jade .progress-bar[aria-valuenow="75"]{
+  background-color: rgb(117,168,28);
+  width: 75%;
+}
+#jade .progress-bar[aria-valuenow="80"]{
+  background-color: rgb(83,120,19);
+  width: 80%;
+}
+#jade .progress-bar[aria-valuenow="85"]{
+  background-color: rgb(53,77,12);
+  width: 85%;
+}
+
+
+#jade .container-fluid{
+  background-color: rgb(117,168,28,0.5);
+}
+
+#jade .card-deck svg{
+  width: 36px;
+}
